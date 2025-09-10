@@ -105,12 +105,8 @@ class _VerificationScreenState extends State<VerificationScreen> {
                   ),
                 ),
                 onPressed: () {
-                  String code =
-                      codeControllers.map((c) => c.text).join(); // gabung kode
-                  if (code.length == 4) {
-                    // TODO: validasi kode
-                    Navigator.pushNamed(context, '/resetpassword');
-                  }
+                  // Navigasi langsung ke halaman sukses tanpa validasi
+                  Navigator.pushNamed(context, '/signup-success');
                 },
                 child: const Text(
                   "Verifikasi",

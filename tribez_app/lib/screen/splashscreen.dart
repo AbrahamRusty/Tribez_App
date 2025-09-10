@@ -23,10 +23,10 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFFFD740), // kuning
+      backgroundColor: const Color(0xFFFFDE59), // kuning
       body: Center(
         child: Image.asset(
-          'assets/logo.png', // taruh logo TR#BEZ di folder assets
+          'assets/tribezlogo.png', // taruh logo TR#BEZ di folder assets
           width: 200,
         ),
       ),
